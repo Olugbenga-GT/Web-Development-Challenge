@@ -1,0 +1,270 @@
+* {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+}
+
+body, html {
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      
+}
+.container {
+      background: #f4f4f4;
+      padding: 35px 100px;
+      max-width: 100%;
+}
+
+p{ 
+      font-size: 1.1rem;
+}
+
+/* Utility Classes */
+.my-1 { margin: 90px  0;}
+.my-2 { margin: 60px  0;}
+.my-3 { margin: 30px  0;}
+.mb-1{  margin-bottom: 90px;    }
+
+.text-primary{
+  color: #ff5678;
+}
+
+.text-gray {
+      color: #999999
+}
+
+.l-heading{
+      font-size: 28px;
+}
+.m-heading {
+      font-size: 24px;
+}
+.s-heading {
+      font-size: 20px;
+}
+.bg-primary {
+      background: #ff5678;
+      color: #fff;
+}
+
+/* .p-1{padding: 10px 15px;}
+.p-2{padding: 20px 30px;}
+.p-3{padding: 30px 45px;} */
+
+
+
+/* Header: Navbar */
+#navbar {
+      display: flex;
+      justify-content: space-between;
+}
+
+#navbar ul {
+      display:  flex;
+}
+
+#navbar ul li {
+      list-style:  none;
+      padding: 7px 15px;
+      cursor: pointer;
+}
+
+#navbar ul li:last-child {
+padding: 7px 25px;
+background: #ff5678;
+color: #fff;
+border-radius: 3px;
+margin-left: 10px;
+}
+
+/* Section : Illustration */
+#illustration {
+      display:  flex;
+      justify-content:space-between;
+      min-height: ;
+}
+#illustration .text{ width:62%;}
+#illustration .image img{
+      /* height: 200px ; */
+      margin-top: -50px ; 
+}
+
+#illustration .text h1 {
+      line-height: 1.2;
+      word-spacing: 4px;
+      margin: 15px 0;
+}
+
+#illustration .text p {
+      margin: 5px 0;
+}
+
+#illustration .text ul {
+      display:  flex;
+      align-items: center;
+      margin-top: 25px;
+}
+
+#illustration .text ul li {
+      padding: 15px 20px;
+      list-style: none;
+      cursor: pointer;
+}
+
+#illustration .text ul li img {
+    width: 20px;
+    height: 20px;
+}
+
+#illustration .text ul li p 
+{
+      padding: 15px 45px;
+      background: #ff5678;
+      color: #fff;
+      border-radius: 3px;
+      margin-left: 10px;     
+}
+
+#little {
+   display: flex;
+     flex: 1;
+
+}
+
+#little .lil-text {
+flex: 1;
+margin-right: 200px;
+}
+
+#little .lil-text h2 {
+      margin-bottom: 25px;
+}
+#little .lil-text p {
+      line-height: 1.55rem;
+      word-spacing: 3px;
+      margin: 10px 0;
+}
+
+#little .lil-image {
+      flex: 1;
+}
+
+#little .lil-image img {
+      max-width: 550px;
+      height:  375px;
+      margin-left: -75px;
+}
+
+#experience hr {
+      margin: 20px  0;
+}
+#experience .top {
+      display: flex;
+      align-items:  center;
+      justify-content: space-between;
+}
+
+#experience .year {
+      display: flex;
+      justify-content: space-evenly;
+      flex-flow: wrap;
+}
+
+#experience .year div {
+ width: 33.3%;
+ padding: 20px 0;
+}
+
+   #skills hr {
+      margin: 20px  0;
+      }
+#skills .card {
+      display: flex;
+      justify-content: space-between;
+}
+
+#skills .card .mycard {
+      background: #fff;
+      padding: 45px 18px;
+      margin: 30px 45px;
+}
+
+#selected  .pix {
+      display: flex;
+      flex-flow: wrap;
+}
+
+#selected .pix img {
+      padding:13px;
+}
+
+#skillset {
+      display: flex;
+      justify-content: space-between;
+}
+
+#skillset h2 {
+      margin-bottom: 20px;
+}
+#skillset img{
+width: 60px;   
+height: 60px;
+margin-right: 40px;
+}
+
+#connect {
+      display: flex;
+      justify-content: space-between;
+}
+
+#connect .letters {
+      width: 50%;
+      margin-right: 120px;
+}
+#connect .letters h1 {
+      margin-bottom: 25px;
+}
+#connect .letters p {
+margin-bottom: 20px;
+word-spacing: 7px;
+}
+#connect button {
+      margin-bottom: 30px;
+      border: 1px solid #ff5678;
+      padding: 10px 45px;
+      font-size: 20px;
+      cursor: pointer;
+}
+
+#connect  .find {
+  width: 50%;
+}
+
+#connect  .find h1 {
+      margin-bottom: 25px
+}
+
+#connect  .find div {
+      display: flex;
+      margin: 20px 0;
+}
+#connect  .find div p {
+      font-size: 14px;
+      padding-left: 10px;
+}
+#connect  .find img {
+      width: 20px;   
+      height: 20px;
+      cursor: pointer;
+      /* margin-right: 40px; */
+}
+
+footer {
+      text-align: center;
+      background: #ff5678;
+}
+
+footer p {
+      color: aliceblue;
+      padding: 25px 0;
+      font-size: 20px;
+}
