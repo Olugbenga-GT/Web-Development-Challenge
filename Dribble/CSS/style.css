@@ -1,0 +1,164 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+
+* {
+      margin: 0;
+      padding: 0 ;
+      box-sizing: border-box;
+}
+
+body {
+      background: linear-gradient(to right,  #f0ca79,  #b3619f);
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container {
+      display: flex;
+      margin: 35px 20px;
+      
+}
+
+a {
+      text-decoration: none;
+}
+
+ #discover {
+flex: 1.5;
+background: #f0ca79;
+padding: 20px;
+}
+ #discover p,
+ #discover small {
+      font-family: 'Sacramento', cursive;
+      font-size: 20px;
+}
+
+#discover img {
+      margin: 60px 0;
+      width: 100%;
+}
+
+ #dribble {
+      flex: 2.5;
+      background: #fff;
+      padding: 30px 40px;
+} 
+
+#dribble  > p {
+      float: right;
+      font-size: 10px;
+}
+
+#dribble input {
+      background: #e6e6e6;
+      border: 1px solid #e6e6e6;
+      outline: none;
+      padding: 3px;
+      border-radius: 5px;
+      margin-bottom: 15px;
+      width: 100%;
+}
+
+#dribble  .form-wrap {
+      margin: 40px 70px;
+}
+
+#dribble  .form-wrap ::placeholder {
+      font-size: 10px;
+}
+
+ #dribble  .form-wrap h4 {
+      padding-bottom: 10px;
+}
+#dribble  .form-wrap label {
+      display: block;
+      font-size:  12px;
+      margin-bottom: 7px;
+}
+
+#dribble  .form-wrap .social {
+      display : flex;
+      justify-content: space-between;
+      width: 100%;
+      margin-bottom: 15px;
+}
+
+ #dribble  .form-wrap
+ .social .google {
+       display: flex;
+       text-align:  center;
+       color: #fff;
+       background: #1a73e8;
+       padding: 7px 20px 7px 5px;
+       width : 78%;
+      border-radius: 5px;
+      font-size: 12px;
+
+ }
+
+ #dribble  .form-wrap
+ .social .google i {
+       margin-right: 45px;
+       margin-left: 15px;
+ }
+  #dribble  .form-wrap
+ .social i {
+       font-size: 12px;
+       align-self: center;
+ }
+
+ #dribble  .form-wrap
+ .social .twitter,
+#dribble  .form-wrap
+ .social .facebook{
+       background: #e6e6e6;
+       padding: 7px 9px;
+       border-radius: 5px;
+ }
+
+ #dribble  .form-wrap .or {
+       display: inline;
+     text-align: center;
+ }
+ #dribble  .form-wrap .or hr {
+       display: inline-block;
+       width: 46%;
+ }
+
+#dribble  .form-wrap .name {
+      display: flex;
+}
+
+#dribble  .form-wrap .name .fullname {
+      margin-right: 15px;
+}
+
+#dribble  .form-wrap .dot {
+      font-size: 10px;
+      display: flex;
+      margin-left: -70px;
+}
+
+#dribble  .form-wrap .dot p {
+      margin-left: -85px;
+      margin-bottom: 20px;
+}
+
+#dribble  .form-wrap .btn {
+      background: #b3619f;
+      color: #fff;
+      padding: 7px 20px;
+      border-radius: 5px;
+      font-size: 12px;
+}
+
+footer p, footer a {
+      font-size: 9px;
+      text-decoration: none;
+      text-align: center;
+}
+
+
+

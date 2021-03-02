@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="CSS/style.css">
+      <title>Dribble Landing Page| Discovr the world's top designers & creatives..</title>
+</head>
+<body>
+            <div class="container">
+                  <section id="discover">
+                        <p>dribble</p>
+                        <h2>Discover the world's   <br>  top Designers & <br>   Creatives</h2>
+                        <img src="./img/Capture.PNG" height="250px" height="250px">
+                        <small>Arts by Olugbenga-GT</small>
+                  </section>
+
+                  <section id="dribble">
+                        <p>Already a member? Sign <a href="#">Sign in</a></p>
+                        <h3>Sign Up to Dribble</h3>
+                        <form action="process.php" id="form-wrap">
+                        <div class="social">
+                                    <div class="google">
+                                          <i class="fab  fa-google"></i>
+                                          <p>Sign up with Google</p>
+                                    </div>
+                                    <div class="twitter">
+                                          <i class="fab fa-twitter"></i>
+                                    </div>
+                                    <div class="facebook">
+                                          <i class="fab fa-facebook"></i>
+                                    </div>
+                              <div class="or">
+                                    <hr>  Or <hr>
+                              </div>
+                              <div class="name">
+                                    <div class="fullname">
+                                          <label for="full name"> Full Name</label>
+                                          <input type="text">
+                                    </div>
+                                    <div class="username">
+                                          <label for="username">Username</label>
+                                          <input type="text">
+                                    </div>
+                              </div>
+
+                              <label for="email">Email Address</label>
+                              <input type="email">
+
+                              <label for="password">Password</label>
+                              <input type="password" placeholder=" 6 - 8 characters">
+
+                              <input type="checkbox" > Creating an account means you are okay with our <a href="#">terms of service, provacy policy</a> and our default <a href="#">Notification settings</a>
+                              
+                              <a href="#" class="btn">Create Account</a>
+                        </div>
+                        </form>
+                  </section>
+            </div>
+</body>
+</html>
